@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-jqfr
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-user-workloads/misjohns-tenant/devfile-sample-1/devfile-sample-jqfr@sha256:5f3d11b7f3f50acfc33aed87b0b8d5534c028a5e89a7157a8652ce251b0ffe20
         name: my-nodejs
         ports:
         - containerPort: 3001
