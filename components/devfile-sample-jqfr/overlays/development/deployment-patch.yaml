@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-jqfr
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/misjohns-tenant/devfile-sample-1/devfile-sample-jqfr@sha256:5f3d11b7f3f50acfc33aed87b0b8d5534c028a5e89a7157a8652ce251b0ffe20
+        name: my-nodejs
+        resources: {}
+status: {}
